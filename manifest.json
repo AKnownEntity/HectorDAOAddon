@@ -1,0 +1,12 @@
+{
+    "name": "Hector DAO Addon",
+    "description": "New features brought to Hector DAO",
+    "version": "1.0",
+    "manifest_version": 3,
+    "content_scripts": [
+        {
+            "matches": ["https://app.hectordao.com/**"],
+            "js": ["contentscript.js"]
+        }
+    ]
+  }
